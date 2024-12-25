@@ -13,8 +13,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mui/icons-material": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
     "ry-react-cli": "^1.0.0"
   },
   "devDependencies": {
