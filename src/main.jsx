@@ -7,6 +7,8 @@ import Root from './layout/Root.jsx';
 import Services from './pages/services/index.jsx';
 import Contact from './pages/contact/index.jsx';
 import About from './pages/about/index.jsx';
+import ThemeProvider from './context/ThemeContext.jsx';
+
 
 const router = createHashRouter([
   {
@@ -37,6 +39,8 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <ThemeProvider>
     <RouterProvider router={router} />
+    </ThemeProvider>
   </StrictMode>,
 )
