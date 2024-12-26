@@ -1,6 +1,6 @@
 {
-  "name": "kleon",
   "homepage": "https://UsaniGee.github.io/Kleon",
+  "name": "kleon",
   "private": true,
   "version": "0.0.0",
   "type": "module",
