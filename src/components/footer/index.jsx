@@ -50,7 +50,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="container mx-auto mt-12 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-4 md:mb-0">
-          <img src="" alt="Kleon Logo" className="h-8 mr-2" /> {/* Replace with your logo path */}
+          <img src="assets/K.png" alt="Kleon Logo" className="h-8 mr-2" /> {/* Replace with your logo path */}
           <span className="text-xs">&copy; 2024 Kleon.</span>
         </div>
         <div className="flex space-x-4">
