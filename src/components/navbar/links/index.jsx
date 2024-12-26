@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { CgClose } from 'react-icons/cg'
 import { RxHamburgerMenu } from 'react-icons/rx'
+import { Link } from 'react-router-dom'
 
 const Links = () => {
 const [isOpen, setIsOpen] = useState(false)
@@ -12,13 +13,25 @@ const handleClose =  () => {
   setIsOpen(false)
 }
 
+
+
   return (
     <div className='w-full'>
       <ul className='hidden md:flex w-full justify-between'>
-        <li className=''>Home</li>
-        <li>About Us</li>
-        <li>Our Services</li>
-        <li>Contact</li>
+        <Link to={'/'}>
+          <li className=''>Home</li>
+        </Link>
+        <Link to={'/about-us'}>
+         <li>About Us</li>
+        </Link>
+        <Link to={'/services'}>
+          <li>Our Services</li>
+        </Link>
+        <Link to={'contact-us'}>
+          <li>Contact</li>
+        </Link>
+       
+        
       </ul>
 
       <div className='md:hidden '>
@@ -34,10 +47,18 @@ const handleClose =  () => {
          
         <div>
           <ul className='p-20 flex flex-col w-full h-[300px] justify-between'>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Our Services</li>
-              <li>Contact</li>
+          <Link to={'/'}>
+          <li className=''>Home</li>
+        </Link>
+        <Link to={'/about-us'}>
+         <li>About Us</li>
+        </Link>
+        <Link to={'/services'}>
+          <li>Our Services</li>
+        </Link>
+        <Link to={'contact-us'}>
+          <li>Contact</li>
+        </Link>
          </ul>
         </div>
         </div>
