@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='md:pt-[125px] pt-[85px]'>
+    <div className='md:pt-[110px] pt-[120px]'>
       <div className='bg-black relative'>
       <img className='h-[400px] md:h-[350px] opacity-65 w-full object-cover' src="assets/AboutUss.jpg" alt="AboutUs" />
       <div className='grid gap-10 lg:mr-10 place-items-center absolute top-2 p-10'>
