@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
   return (
     <div className='grid md:grid-cols-2 place-items-center gap-10 md:gap-0 px-10 lg:px-[100px] pt-20 md:pt-20 pb-[70px] dark:bg-inherit text-center md:text-left'>
        <div className='dark:bg-black rounded-2xl w-[70%]'>
-        <img className='dark:opacity-70 rounded-2xl aspect-square  object-cover' src="assets/WhyChooseUs.jpg" alt="WhyChooseUs" />
+        <img className='dark:opacity-70 rounded-2xl aspect-square object-cover' src="assets/WhyChooseUs.jpg" alt="WhyChooseUs" />
       </div>
       <div className='grid gap-5 md:gap-10 lg:mr-10'>
         <h1 className='text-3xl lg:text-5xl font-bold text-[#D39D55] dar:text-inherit'> Why Choose Kleon</h1>

@@ -14,8 +14,9 @@ const handleClose =  () => {
 }
 
 
-
   return (
+
+    // Desktop Menu
     <div className='w-full'>
       <ul className='hidden md:flex w-full justify-between'>
         <Link to={'/'}>
@@ -34,6 +35,9 @@ const handleClose =  () => {
         
       </ul>
 
+
+
+      {/* Mobile view mwnu */}
       <div className='md:hidden '>
       <div onClick={handleOpen} className='text-2xl'>
         <RxHamburgerMenu />
@@ -47,16 +51,16 @@ const handleClose =  () => {
          
         <div>
           <ul className='p-20 flex flex-col w-full h-[300px] justify-between'>
-          <Link to={'/'}>
+          <Link onClick={handleClose} to={'/'}>
           <li className=''>Home</li>
         </Link>
-        <Link to={'/about-us'}>
+        <Link onClick={handleClose} to={'/about-us'}>
          <li>About Us</li>
         </Link>
-        <Link to={'/services'}>
+        <Link onClick={handleClose} to={'/services'}>
           <li>Our Services</li>
         </Link>
-        <Link to={'contact-us'}>
+        <Link onClick={handleClose} to={'contact-us'}>
           <li>Contact</li>
         </Link>
          </ul>
