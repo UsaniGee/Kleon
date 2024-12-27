@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold mb-4 text-[#D39D55]">About Kleon</h4>
           <p className="text-sm">
-          Kleon is a tech service provider that offers a comprehensive suite of services like data analytics, cybersecurity, AI/ML and blockchain solutions to businesses in Africa. We utilize a hybrid method of operation to bolster growth across Nigeria and Africa. Our mission is to empower African companies to leverage technology to promote growth, innovation and transformation and employ African youths creating a sustainable source of income. With our strong team of experts, we aim to become a leading technology solutions provider in Africa.
+          Kleon is a tech service provider that offers a comprehensive suite of services like data analytics, cybersecurity, AI/ML and blockchain solutions to businesses in Africa and Asia. We utilize a hybrid method of operation to bolster growth across Nigeria, Africa and Asia. Our mission is to empower African and Asian companies to leverage technology to promote growth, innovation and transformation and employ African and Asian youths creating a sustainable source of income. With our strong team of experts, we aim to become a leading technology solutions provider in Africa and Asia.
           </p>
         </div>
 

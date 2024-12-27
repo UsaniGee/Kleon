@@ -1,10 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { CgClose } from 'react-icons/cg'
 import { RxHamburgerMenu } from 'react-icons/rx'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Links = () => {
 const [isOpen, setIsOpen] = useState(false)
+const navigate = useNavigate()
+
+useEffect (() => {
+  window.scrollTo(0, 0);
+},[navigate]);
 
 const handleOpen =  () => {
   setIsOpen(true)
@@ -13,15 +18,17 @@ const handleClose =  () => {
   setIsOpen(false)
 }
 
+const handleClick = () => navigate ('/')
+
+
+
 
   return (
 
     // Desktop Menu
     <div className='w-full'>
       <ul className='hidden md:flex w-full justify-between'>
-        <Link to={'/'}>
-          <li className=''>Home</li>
-        </Link>
+          <li onClick={handleClick} className=''>Home</li>
         <Link to={'/about-us'}>
          <li>About Us</li>
         </Link>
